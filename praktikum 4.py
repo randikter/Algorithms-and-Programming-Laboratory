@@ -1,10 +1,10 @@
-#Program pengeluaran for
+#Expenditure program for
 for a in range(7,0,-1):
     for b in range(a):
         print(a, end="")
     print()
 
-#Program menentukan bulan dengan while
+#Program to determine the month using a while loop
 a = int(input("Enter the month number (1-12): "))
 b = int(input("Enter the year: "))
 while a < 1 or a > 12:
